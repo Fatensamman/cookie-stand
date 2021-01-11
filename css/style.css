@@ -1,0 +1,13 @@
+
+
+.border_class td{
+    border:2px  solid rgba(12, 12, 12, 0.11); padding: 10px 6px;
+}
+table {
+    border-collapse: collapse; font-size: large; text-align: center;
+}
+
+#objsection {
+    margin-top: 200px;
+    width: 100%;}
+
