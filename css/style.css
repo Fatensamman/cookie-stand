@@ -1,5 +1,4 @@
-
-
+/* sale page */
 .border_class td{
     border:2px  solid rgba(12, 12, 12, 0.11); padding: 10px 6px;
 }
@@ -11,3 +10,72 @@ table {
     margin-top: 200px;
     width: 100%;}
 
+    /* home page */
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        .container {
+            width :1170px;
+            
+            margin:auto;
+        }
+        /* linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), */
+        header{
+            
+            /* background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7))url("images/family.jpg"); */
+            background-color:#dfe0df;
+            height: 100vh;
+            background-position: center center;
+            background-size: cover;
+            position: relative;
+        }
+        header img {
+            float: left;
+            width:200px; height: 70px;
+        } 
+        .nav-area{
+            float: right;
+            list-style: none;
+            margin-top: 30px;
+        }
+        .nav-area li{
+            float : right;
+            display: inline-block;
+        }
+        .nav-area li a{
+            color: #00917c;
+            padding : 5px 20px;
+            font-size : 18px;
+        }
+        .nav-area li a:hover{
+            background: #00917c;
+            color: #fde8cd;
+        }
+        .welcome-txt {
+            position: absolute;
+            width: 600px;
+            height: 300px;
+            margin: 10% 20%;
+             text-align: left;
+        }
+        .welcome-txt h1{
+            text-align: left;
+            color : #00917c ;
+            font-size: 40px;
+        }
+        .welcome-txt a{
+            border : 1px solid #00917c;
+            padding : 10px 25px;
+            text-transform: uppercase;
+            font-size: 14px;
+            margin-top: 20px;
+            color: #00917c;
+            display: inline-block;
+        }
+        .welcome-txt a:hover{
+            background: #00917c;
+            color:  #fde8cd;
+        }
