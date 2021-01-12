@@ -43,6 +43,7 @@ Paris.getCusAndCookiesPerHour();
 Lima.getCusAndCookiesPerHour();
 console.log(seattle);
 
+
 //render in table 
 
 var objsection = document.getElementById('objsection');
@@ -89,22 +90,34 @@ function renderAll() {
         allBr[i].render();
     }
 };
+renderAll();
 // table footer
-// just a try
-// getTotalhour()
-// function getTotalhour() {
-//     var totalPerHour = [];
-//     var sumTotal = 0;
-//     for (var i = 0; i < hours.length; i++) {
-//       var inHour = 0;
-//       for (var x = 0; x< allBr.length; x++) {
-//         inHour = inHour + allBr[x]. CookiesPerHour[x];
-//       }
-//       totalPerHour.push(inHour);
-//       sumTotal = sumTotal + inHour;
-//     }
-//     return [totalPerHour, sumTotal];
-//   }
-// console.log(getTotalhour())
-renderAll()
 
+// just a try
+
+function getTotalhour() {
+    var totalcell = document.createElement('tr');
+    var NameTotal=document.createElement('td')
+    NameTotal.textContent = 'Total';
+    totalcell.appendChild(NameTotal);
+    salesTable.appendChild(totalcell);
+    var sumTotal = 0;
+    for (var i = 0; i < hours.length; i++) {
+        var EachHour = document.createElement('td');
+        var inHour = 0;
+        var totalPerHour = [];
+        for (var x = 0; x < allBr.length; x++) {
+            inHour = inHour + allBr[x].CookiesPerHour[i];
+        }
+        EachHour.textContent = inHour;
+        totalcell.appendChild(EachHour);
+        sumTotal = sumTotal + inHour;
+    }
+ var Sumation = document.createElement('td');
+ Sumation.textContent=sumTotal;
+ totalcell.appendChild(Sumation);
+}
+console.log(getTotalhour())
+
+
+// getTotalhour();
