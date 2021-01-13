@@ -1,5 +1,5 @@
 /* sale page */
-.border_class td{
+/* .border_class td{
     border:2px  solid rgba(12, 12, 12, 0.11); padding: 10px 6px;
 }
 table {
@@ -7,8 +7,10 @@ table {
 }
 
 #objsection {
+    
+    text-align: center;
     margin-top: 200px;
-    width: 100%;}
+    width: 100%;} */
 
     /* home page */
         * {
@@ -16,7 +18,9 @@ table {
             padding: 0;
             font-family: 'Roboto Mono', monospace;
         }
-
+       body{
+        background-color:#dfe0df;
+       }
         .container {
             width :1170px;
             
@@ -27,7 +31,7 @@ table {
             
             /* background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7))url("images/family.jpg"); */
             background-color:#dfe0df;
-            height: 100vh;
+            /* height: 100vh; */
             background-position: center center;
             background-size: cover;
             position: relative;
