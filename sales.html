@@ -3,13 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Sales</title>
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <link rel="stylesheet" href="css/style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header></header>
+    
+    <header>
+        <div class = "container">
+           <div class="logo">
+            <img src="images/salmon.png" alt="salmon">
+           </div>
+           <nav>
+            <ul class = "nav-area">
+                <li ><a href="index.html">Home</a></li>
+                <li ><a href="sales.html">Sales</a></li>
+                <li ><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
     <main>
+        <div class="welcome-txt">
+            <h1>Salmon Cookies</h1>
+            <a href="#">Ours Statistics</a>
+        </div> 
+        <form action=""id = LocationForm>
+        <fieldset>
+            <legend>Location Info</legend>
+            <br>
+            <br>
+            <label for="nameFeild">- Branch Name: </label>
+            <input type="text" id="nameFeild" name = "nameFeild" required minlength="1" maxlength="10">
+            <br>
+            <br>
+            <label for="minCust">- Minimum Customers PerHour: </label>
+            <input type="number" id="minCust" name = "minCust" required  maxlength="4">
+            <br>
+            <br>
+            <label for="maxCust">- Maximum Customers PerHour: </label>
+            <input type="number" id="maxCust" name = "maxCust" required  maxlength="4">
+            <br>
+            <br>
+            <label for="avgCookies">- Avrage Cookies: </label>
+            <input type="number" id="avgCookies" name = "avgCookies" required  maxlength="4">
+            <br>
+            <br>
+            <input type="submit" value="submit" id ="submitbtn">
+
+        </fieldset>
+
+
         <div id = "objsection"></div>
     </main>
     <footer></footer>
