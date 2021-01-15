@@ -12,9 +12,10 @@
         background-color:#dfe0df;
        }
         .container {
-            width :1170px;
+            /* width :1400px; */
             height: 100px;
             margin:auto;
+            background-color: #00917c;
         }
         header{
             /* background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7))url("images/family.jpg"); */
@@ -27,24 +28,30 @@
         header img {
             float: left;
             width:200px; height: 70px;
+            margin-left: 50px;
+            margin-top: 20px;
         } 
         .nav-area{
             float: right;
             list-style: none;
-            margin-top: 30px;
+            margin-top: 40px;
+            margin-right: 50px;
         }
         .nav-area li{
             float : right;
             display: inline-block;
         }
         .nav-area li a{
-            color: #00917c;
+            color: #eeeeee;
             padding : 5px 20px;
-            font-size : 18px;
+            font-size : 20px;
         }
         .nav-area li a:hover{
             background: #00917c;
             color: #fde8cd;
+        }
+        main{
+            height: 1475px;
         }
         .welcome-txt {
             position: absolute;
@@ -71,7 +78,6 @@
             opacity: 0.6;
         }
         .welcome-txt a{
-            border : 1px solid #00917c;
             padding : 10px 25px;
             text-transform: uppercase;
             font-size: 14px;
@@ -79,7 +85,7 @@
             color: #00917c;
             display: inline-block;
             margin-left: 10px;
-           
+            border : 1px solid #00917c;
             border-radius: 10px;
         }
         .welcome-txt a:hover{
@@ -90,15 +96,17 @@
         .col1{
             width: 1000px;
         }
-        .col1 h2{
+        h2{
             position: relative;
-            left: 1200px;
+            left: 1180px;
             top: 50px; 
             color: #00917c;
+            display:inline-block;
+            /* text-align:center; */
         }
         .card{
             position: relative;
-           left: 980px;
+           left: 940px;
            top: 50px;
             width: 300px;
             height: 420px;
@@ -111,6 +119,7 @@
             margin: 10px 15px;
             overflow: hidden;
             background-color: #00917b73;
+            transition-duration: 5s;
         
         }
        
@@ -125,7 +134,18 @@
             width: 300px;
             height: 260px;
         }
-        .card .cardp1 , h4{
+        .card h4{
+            display: block;
+            position: relative;
+            top: 250px;
+            margin:5px;
+            text-align: left;
+            color:  #00917c;
+            border : 1px solid #dfe0df;
+            /* border-radius: 10px; */
+            background-color: #dfe0df;
+        }
+        .card .cardp1{
             display: block;
             position: relative;
             top: 250px;
@@ -133,3 +153,60 @@
             text-align: left;
             color:  #eeeeee;;
         }
+
+        footer{
+            height: 150px;
+            background-color: #00917c; color: #eeeeee;
+            text-align: center;
+            margin-bottom: 10px;
+
+        }
+        footer h3 {
+            margin:0px;
+            padding:20px;
+        }
+      footer  p{
+          margin-top: 0px;
+          margin-bottom: 5px;
+
+        }
+
+        /* sale page  */
+        .border_class td{
+            text-align: center;
+           border:2px  solid rgba(12, 12, 12, 0.11); padding: 20px 16px;
+       }
+       table {
+           border-collapse: collapse; font-size: large; text-align: center;
+           background-color: #fde8cd;
+           color: #00917c;
+       }
+       th {background-color: #00917c; color: #fde8cd;
+
+       }
+       
+       #objsection {
+           
+           text-align: left;
+           position: relative;
+           top: 70px;
+          right: 320px;}
+           /* width: 100%;}  */
+
+           
+     form {
+        position: relative;
+        top: 250px;
+       left: 600px;
+       width: 500px;
+   } 
+   #submitbtn{
+       margin-left: 210px;
+       font-size: 15px;
+       font-weight: bold;
+       background-color: #00917c;
+       color: #fde8cd;
+   }
+
+
+       
